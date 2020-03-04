@@ -1,0 +1,94 @@
+111.600 (+/-12.816) pour : SVC {'clf__C': 1000, 'clf__kernel': 'linear'}
+111.600 (+/-12.816) pour : SVC {'clf__C': 100, 'clf__gamma': 0.1, 'clf__kernel': 'rbf'}
+111.600 (+/-12.816) pour : SVC {'clf__C': 1000, 'clf__gamma': 0.1, 'clf__kernel': 'rbf'}
+111.600 (+/-12.816) pour : SVC {'clf__C': 100, 'clf__kernel': 'linear'}
+111.600 (+/-12.816) pour : LinearSVC {'clf__C': 10}
+111.600 (+/-12.816) pour : SVC {'clf__C': 10, 'clf__kernel': 'linear'}
+111.600 (+/-12.816) pour : SVC {'clf__C': 1000, 'clf__gamma': 0.01, 'clf__kernel': 'rbf'}
+111.600 (+/-12.816) pour : LinearSVC {'clf__C': 100}
+111.600 (+/-12.816) pour : LinearSVC {'clf__C': 1000}
+111.200 (+/-13.257) pour : SVC {'clf__C': 1, 'clf__kernel': 'linear'}
+111.000 (+/-12.506) pour : SVC {'clf__C': 10, 'clf__gamma': 0.1, 'clf__kernel': 'rbf'}
+111.000 (+/-13.084) pour : SVC {'clf__C': 1000, 'clf__gamma': 0.001, 'clf__kernel': 'rbf'}
+111.000 (+/-13.084) pour : SVC {'clf__C': 100, 'clf__gamma': 0.01, 'clf__kernel': 'rbf'}
+110.200 (+/-13.045) pour : LinearSVC {'clf__C': 1}
+108.400 (+/-12.800) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 1}
+108.400 (+/-12.800) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 2}
+108.400 (+/-12.800) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 1}
+108.200 (+/-10.815) pour : Arbre de Décision {'clf__criterion': 'gini'}
+108.200 (+/-9.600) pour : Arbre de Décision {'clf__criterion': 'entropy'}
+106.200 (+/-13.075) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 6}
+106.000 (+/-13.312) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 5}
+106.000 (+/-12.696) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 4}
+105.200 (+/-12.544) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 3}
+104.800 (+/-12.890) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 8}
+103.800 (+/-12.416) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 7}
+102.400 (+/-12.371) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 9}
+101.800 (+/-12.671) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 10}
+101.800 (+/-11.409) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 3}
+100.000 (+/-12.280) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 5}
+98.000 (+/-11.662) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 15}
+97.400 (+/-13.807) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 2}
+97.400 (+/-11.447) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 7}
+97.000 (+/-10.826) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 4}
+96.600 (+/-11.236) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 20}
+96.200 (+/-12.480) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 9}
+96.000 (+/-10.973) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 6}
+93.600 (+/-11.271) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 8}
+91.000 (+/-9.381) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 25}
+90.800 (+/-10.147) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 10}
+90.400 (+/-10.268) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 15}
+89.400 (+/-11.146) pour : Gaussian Naive Bayes {}
+89.400 (+/-7.838) pour : kPPV {'clf__weights': 'distance', 'clf__n_neighbors': 30}
+86.400 (+/-8.065) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 20}
+83.400 (+/-6.248) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 25}
+82.600 (+/-9.135) pour : LinearSVC {'clf__C': 0.1}
+73.800 (+/-5.036) pour : kPPV {'clf__weights': 'uniform', 'clf__n_neighbors': 30}
+59.600 (+/-7.172) pour : SVC {'clf__C': 100, 'clf__gamma': 0.001, 'clf__kernel': 'rbf'}
+59.600 (+/-7.172) pour : SVC {'clf__C': 1000, 'clf__gamma': 0.0001, 'clf__kernel': 'rbf'}
+59.000 (+/-7.348) pour : SVC {'clf__C': 10, 'clf__gamma': 0.01, 'clf__kernel': 'rbf'}
+52.400 (+/-7.116) pour : SVC {'clf__C': 1, 'clf__gamma': 0.1, 'clf__kernel': 'rbf'}
+32.800 (+/-6.823) pour : SVC {'clf__C': 0.1, 'clf__kernel': 'linear'}
+12.000 (+/-3.286) pour : LinearSVC {'clf__C': 0.01}
+11.400 (+/-5.200) pour : Bernoulli Naive Bayes {}
+6.000 (+/-1.897) pour : Multinomial Naive Bayes {}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.01, 'clf__gamma': 0.01, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 2, 'clf__kernel': 'poly', 'clf__degree': 3}
+0.000 (+/-0.000) pour : SVC {'clf__C': 4, 'clf__kernel': 'poly', 'clf__degree': 3}
+0.000 (+/-0.000) pour : SVC {'clf__C': 1, 'clf__kernel': 'poly', 'clf__degree': 4}
+0.000 (+/-0.000) pour : SVC {'clf__C': 1, 'clf__gamma': 0.0001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.1, 'clf__gamma': 0.1, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.1, 'clf__gamma': 0.01, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 4, 'clf__kernel': 'poly', 'clf__degree': 1}
+0.000 (+/-0.000) pour : SVC {'clf__C': 5, 'clf__kernel': 'poly', 'clf__degree': 2}
+0.000 (+/-0.000) pour : SVC {'clf__C': 2, 'clf__kernel': 'poly', 'clf__degree': 2}
+0.000 (+/-0.000) pour : SVC {'clf__C': 1, 'clf__kernel': 'poly', 'clf__degree': 1}
+0.000 (+/-0.000) pour : SVC {'clf__C': 1, 'clf__gamma': 0.01, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 3, 'clf__kernel': 'poly', 'clf__degree': 1}
+0.000 (+/-0.000) pour : SVC {'clf__C': 100, 'clf__gamma': 0.0001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 2, 'clf__kernel': 'poly', 'clf__degree': 1}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.01, 'clf__gamma': 0.001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 3, 'clf__kernel': 'poly', 'clf__degree': 5}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.01, 'clf__gamma': 0.0001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.1, 'clf__gamma': 0.0001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 5, 'clf__kernel': 'poly', 'clf__degree': 4}
+0.000 (+/-0.000) pour : SVC {'clf__C': 3, 'clf__kernel': 'poly', 'clf__degree': 4}
+0.000 (+/-0.000) pour : SVC {'clf__C': 5, 'clf__kernel': 'poly', 'clf__degree': 5}
+0.000 (+/-0.000) pour : SVC {'clf__C': 3, 'clf__kernel': 'poly', 'clf__degree': 3}
+0.000 (+/-0.000) pour : SVC {'clf__C': 4, 'clf__kernel': 'poly', 'clf__degree': 4}
+0.000 (+/-0.000) pour : SVC {'clf__C': 5, 'clf__kernel': 'poly', 'clf__degree': 1}
+0.000 (+/-0.000) pour : SVC {'clf__C': 3, 'clf__kernel': 'poly', 'clf__degree': 2}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.01, 'clf__gamma': 0.1, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.01, 'clf__kernel': 'linear'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 0.1, 'clf__gamma': 0.001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 4, 'clf__kernel': 'poly', 'clf__degree': 2}
+0.000 (+/-0.000) pour : SVC {'clf__C': 4, 'clf__kernel': 'poly', 'clf__degree': 5}
+0.000 (+/-0.000) pour : SVC {'clf__C': 2, 'clf__kernel': 'poly', 'clf__degree': 4}
+0.000 (+/-0.000) pour : SVC {'clf__C': 10, 'clf__gamma': 0.001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 1, 'clf__gamma': 0.001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 10, 'clf__gamma': 0.0001, 'clf__kernel': 'rbf'}
+0.000 (+/-0.000) pour : SVC {'clf__C': 2, 'clf__kernel': 'poly', 'clf__degree': 5}
+0.000 (+/-0.000) pour : SVC {'clf__C': 1, 'clf__kernel': 'poly', 'clf__degree': 5}
+0.000 (+/-0.000) pour : SVC {'clf__C': 1, 'clf__kernel': 'poly', 'clf__degree': 3}
+0.000 (+/-0.000) pour : SVC {'clf__C': 1, 'clf__kernel': 'poly', 'clf__degree': 2}
+0.000 (+/-0.000) pour : SVC {'clf__C': 5, 'clf__kernel': 'poly', 'clf__degree': 3}

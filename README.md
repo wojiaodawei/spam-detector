@@ -4,34 +4,37 @@
 
 The aim of this project was to find the best spam detector by comparing supervised classification methods on SMS and email data.
 
-## Use of the Python 3 library *scikit-learn*
-A tutorial on text classification with *scikit-learn* can be found [**here**](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
+The data folder is missing. Only source code is available here.
 
-## Data, labels and 
-The class we are looking for is "spam", this is the Class 1, the positive class. While class 0 is the negative class when hams are found.
+## Use of the Python 3 library *scikit-learn*
+A tutorial on text classification with *scikit-learn* can be found [**here**](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html).
+
+## Experimental details to know
 
 There are 2 databases:
 * one for SMS
 * one for emails
 
+"spam" is the Class 1, the positive class. While class 0 is the negative class "ham".
+
 The experimental parameters for learning are as follows:
-- 5 cross-validation folds
-- all SMS are randomly divided into 30% for training and 70% for testing
-- all supervised emails are randomly divided into 1/3 for training and 2/3 for testing
+* 5 cross-validation folds
+* all SMS are randomly divided into 30% for training and 70% for testing
+* all supervised emails are randomly divided into 2/3 for training and 1/3 for testing
 
 The types of classifiers compared are : 
-- Decision Trees
-- Support Vector Machine
-- K-Nearest Neighbors
-- Naive Bayesians
+* Decision Trees
+* Support Vector Machine
+* K-Nearest Neighbors
+* Naive Bayesians
 By tuning them on their different parameters, we end up with 94 different classifiers to compare.
 
 Several scoring functions are used to evaluate the classifiers:
-- the proportion of well-classified examples
-- the number of well-detected spam messages 
-- the number of well-detected non-spams (hams) 
-- the average precision (*accuracy*)
-- the area under the ROC curve
+* the proportion of well-classified examples
+* the number of well-detected spam messages 
+* the number of well-detected non-spams (hams) 
+* the average precision (*accuracy*)
+* the area under the ROC curve
 These 5 evaluation criteria are defined in the module *Metrics.py*.
 
 The results are saved in the directory *results/*.
@@ -48,29 +51,19 @@ python3 classification_SMS.py
 
 ## Email
 
-La base d’emails est séparée en deux dossiers : Train et Test. Le dossier Train est lui même
-découpé en trois dossiers contenant les exemples d’apprentissage : spam, ham et ham difficile.
-Chaque fichier contient le code source d’un email. Les fichiers sont donc classés selon le type de
-message qu’ils contiennent puisque le nom du dossier dans lequel ils sont représente le nom du
-label supervisé.
+The email database is split into two folders: *Train* and *Test*. The *Train* folder is itself
+divided into three folders containing learning examples: *spam*, *ham* and *hard ham*.
+Each file contains the source code of an email. 
 
-seulement faire de l’apprentissage sur le dossier Train (l’autre
-dossier n’étant pas classé). Le dossier contient 1720 emails au total, dont 1376 hams et 344 spams.
-Les deux classes ne sont donc pas équilibrées.
-Une fois dans ce dossier, pour charger en mémoire les fichiers textes avec comme catégorie le nom
-du sous-dossier spam, easy_ham ou hard_ham
+Learning is only done on the *Train* folder (the other folder is not classified/supervised). 
+The folder contains a total of 1720 emails, including 1376 hams and 344 spams. The two classes are unbalanced.
 
-Comme pour les SMS, la classe 1 (positive) est spam. J’ai choisi de regrouper easy_ham et
-hard_ham afin de n’avoir qu’une autre classe 0 (négative) représentant les hams en général.
+As for SMS, class 1 (positive) is *spam*. *easy_ham* and *hard_ham* are merged to have only one other class 0 (negative) representing *hams* in general.
 
-deux tiers de Train pour l’ensemble d’apprentissage, et un tiers pour
-l’ensemble de test.
-
-L’exécution de la classification pour la base des emails se lance avec la commande
-suivante :
+Execute the classification for the email database by typing the following command:
+```
 python3 classification_Email.py
-A la suite de cette éxécution, j’obtiens un fichier de résultats par mesure de performance
-sur les 94 classifieurs pour la base des emails. 
+```
 
 ## Results
 
